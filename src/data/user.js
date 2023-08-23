@@ -109,11 +109,11 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 		},
 		{
-			title: "React JS",
+			title: "ReactJS",
 			logo: "https://github.com/Khaled6120/Khaled6120/assets/86200305/26749d41-be74-4623-a003-47eb0a30d472",
 		},
 		{
-			title: "Express JS",
+			title: "ExpressJS",
 			logo: "https://camo.githubusercontent.com/9270fc40ed052b4158b76122cc9984c9c9670b717577d3e89497629fc25782e7/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f382f38382f5374617475735f6975636e5f45585f69636f6e2e7376672f34383070782d5374617475735f6975636e5f45585f69636f6e2e7376672e706e67",
 		},
 		{
@@ -157,7 +157,7 @@ const INFO = {
 			logo: "https://github.com/Khaled6120/Khaled6120/assets/86200305/0cc9c7b3-2ee9-4fc2-9f39-be718dbdec8d",
 		},
 		{
-			title: "Node JS",
+			title: "NodeJS",
 			logo: "https://cdn-icons-png.flaticon.com/512/5968/5968322.png",
 		},
 

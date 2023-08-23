@@ -1,7 +1,7 @@
 @import "/src/data/styles.css";
 
 ::-webkit-scrollbar {
-	width: 10px;
+	width: 13px;
 }
 
 ::-webkit-scrollbar-track {
@@ -9,12 +9,12 @@
 }
 
 ::-webkit-scrollbar-thumb {
-	background-color: #383636;
+	background-color: var(--link-color);
 	border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-	background-color: rgb(0, 0, 0);
+	background-color: var(--secondary-color);
 }
 
 .page-content {
