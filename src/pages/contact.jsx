@@ -19,8 +19,8 @@ const Contact = () => {
 	const sendEmail = (e) => {
 		e.preventDefault();
 
-		const nameInput = form.current.user_name;
-		const emailInput = form.current.user_email;
+		const nameInput = form.current.from_name;
+		const emailInput = form.current.from_email;
 		const messageInput = form.current.message;
 
 		if (nameInput.value.trim() === "") {
@@ -45,7 +45,7 @@ const Contact = () => {
 		emailjs
 			.sendForm(
 				"service_nfmg2zb",
-				"template_1t3ze9g",
+				"template_2p9qftj",
 				form.current,
 				"GY_SKTqwJXBMnaTdV"
 			)
@@ -85,19 +85,19 @@ const Contact = () => {
 
 						<form ref={form} onSubmit={sendEmail}>
 							<div className="form-row">
-								<label htmlFor="user_name">Name</label>
+								<label htmlFor="from_name">Name</label>
 								<input
 									type="text"
-									id="user_name"
-									name="user_name"
+									id="from_name"
+									name="from_name"
 								/>
 							</div>
 							<div className="form-row">
-								<label htmlFor="user_email">Email</label>
+								<label htmlFor="from_email">Email</label>
 								<input
 									type="email"
-									id="user_email"
-									name="user_email"
+									id="from_email"
+									name="from_email"
 								/>
 							</div>
 							<div className="form-row">
