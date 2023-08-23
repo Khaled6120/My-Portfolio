@@ -25,9 +25,9 @@ To Visit App LOCALLY:
 
 # Reflection
 
-## -Overview
+## - Overview
 This was a 3 week long project built with React, HTML, and CSS. Project goals included using technologies learned up until this point and familiarizing myself with documentation for new features. 
-## -Teck Stack
+## - Teck Stack
 <table align='center'>
   <tr>
     <td align="center">
