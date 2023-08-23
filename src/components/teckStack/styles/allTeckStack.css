@@ -39,3 +39,14 @@
 		margin-top: 10px;
 	}
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+	.all-teckStack-container {
+		margin-top: 250px;
+	}
+	.all-teckStack {
+		width: calc(100% / 4);
+		margin: 0px;
+		padding: 0px;
+	}
+}

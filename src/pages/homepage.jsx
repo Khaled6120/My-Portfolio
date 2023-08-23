@@ -168,7 +168,7 @@ const Homepage = () => {
 						</div>
 
 						<div>
-							<p className="subtitle-header homepage-title">
+							<p className="subtitle-header homepage-title mt-xl">
 								Teck Stack
 							</p>
 
