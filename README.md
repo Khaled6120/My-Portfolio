@@ -2,8 +2,10 @@
 My personal portfolio which showcases my experience, projects, and some general information about me, is presented in a modern, attractive layout.
 
 # Project Screen Shot(s)
-
+## - Responsive design
 ![image](https://github.com/Khaled6120/My-Portfolio/assets/86200305/8cbd49d4-211a-41a1-92c7-d096c3a8aeb8)
+## - Desktop design
+![image](https://github.com/Khaled6120/My-Portfolio/assets/86200305/9fd07582-45dd-4dfa-9117-79797fcdd594)
 
 # Installation and Setup Instructions
 
