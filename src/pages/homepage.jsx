@@ -148,7 +148,7 @@ const Homepage = () => {
 											target="_blank"
 											href="https://www.canva.com/design/DAFgThYfEyI/W6Ztmk7YrDbK5lja0llI7g/edit?utm_content=DAFgThYfEyI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
 										>
-											Resume
+											Résumé
 										</a>
 									</button>
 								</div>
