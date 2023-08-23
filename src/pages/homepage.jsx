@@ -169,7 +169,7 @@ const Homepage = () => {
 
 						<div>
 							<p className="subtitle-header homepage-title mt-xl">
-								Teck Stack
+								Tech Stack
 							</p>
 
 							<TechStack />
