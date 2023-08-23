@@ -16,7 +16,7 @@ const INFO = {
 
 	homepage: {
 		name: "Khaled Naes,",
-		title: "A Computer Engineer And Web Developer",
+		title: "A Computer Engineer specialized in web development.",
 		description:
 			`I am a computer engineering graduate who is eager and
 			motivated to work as a web developer. I have hands-on experience
