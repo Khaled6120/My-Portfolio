@@ -1,77 +1,126 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
-import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
-
-import INFO from "../data/user";
 
 import "./styles/contact.css";
 
-const linkStyle = {
-	color: "darkblue",
-	textDecoration: "none",
-	fontWeight: "bold",
-};
-
 const Contact = () => {
+	const [loading, setLoading] = useState(false);
+
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
+
+	const form = useRef();
+
+	const sendEmail = (e) => {
+		e.preventDefault();
+
+		const nameInput = form.current.user_name;
+		const emailInput = form.current.user_email;
+		const messageInput = form.current.message;
+
+		if (nameInput.value.trim() === "") {
+			alert("Please enter your name.");
+			nameInput.focus();
+			return;
+		}
+
+		if (emailInput.value.trim() === "") {
+			alert("Please enter your email.");
+			emailInput.focus();
+			return;
+		}
+
+		if (messageInput.value.trim() === "") {
+			alert("Please enter your message.");
+			messageInput.focus();
+			return;
+		}
+		setLoading(true); // Set loading state to true when sending starts
+
+		emailjs
+			.sendForm(
+				"service_nfmg2zb",
+				"template_1t3ze9g",
+				form.current,
+				"GY_SKTqwJXBMnaTdV"
+			)
+			.then(
+				(result) => {
+					form.current.reset();
+					alert("Email sent successfully", result.text);
+				},
+				(error) => {
+					alert("An error occured, please try again!", error.text);
+				}
+			)
+			.finally(() => {
+				setLoading(false); // Set loading state to false when sending is done
+			});
+	};
 
 	return (
 		<React.Fragment>
 			<div className="page-content">
 				<NavBar active="contact" />
 				<div className="content-wrapper">
-					<div className="contact-logo-container">
-						<div className="contact-logo">
-							<Logo width={46} />
-						</div>
-					</div>
-
 					<div className="contact-container">
 						<div className="title contact-title">
 							Let's Get in Touch 😊
 						</div>
 
 						<div className="subtitle contact-subtitle">
-							Thank you for your interest in getting in touch with
-							me. I welcome your questions, and inquiries. If you
-							have a specific question or comment, please feel
-							free to email me directly at &nbsp;{" "}
-							<a
-								href={`mailto:${INFO.main.email}`}
-								style={linkStyle}
-							>
-								{INFO.main.email}
-							</a>
-							.Finally, if you prefer to connect on social media,
-							you can find me on{" "}
-							<a
-								href={INFO.socials.instagram}
-								target="_blank"
-								rel="noreferrer"
-								style={linkStyle}
-							>
-								Instagram
-							</a>
-							. Don't hesitate to reach out. Thanks again for your
+							I appreciate your interest in reaching out to me.
+							I'm here to address any questions or inquiries you
+							may have. Whether you have a specific question or
+							wish to share your thoughts, please don't hesitate
+							to use this form to send me an email directly .
+							Don't hesitate to reach out. Thanks again for your
 							interest, and I look forward to hearing from you!
 						</div>
+
+						<form ref={form} onSubmit={sendEmail}>
+							<div className="form-row">
+								<label htmlFor="user_name">Name</label>
+								<input
+									type="text"
+									id="user_name"
+									name="user_name"
+								/>
+							</div>
+							<div className="form-row">
+								<label htmlFor="user_email">Email</label>
+								<input
+									type="email"
+									id="user_email"
+									name="user_email"
+								/>
+							</div>
+							<div className="form-row">
+								<label htmlFor="message">Message</label>
+								<textarea
+									id="message"
+									name="message"
+									rows="10"
+								/>
+							</div>
+							<div className="form-row">
+								<button type="submit" disabled={loading}>
+									{loading ? "Sending..." : "Send"}
+								</button>
+							</div>
+						</form>
 					</div>
 
-					<div className="socials-container">
-						<div className="contact-socials">
-							<Socials />
-						</div>
-					</div>
-
-					<div className="page-footer">
-						<Footer />
+					<div className="contact-socials">
+						<Socials />
 					</div>
 				</div>
+				<Footer />
 			</div>
 		</React.Fragment>
 	);
