@@ -68,7 +68,7 @@ const INFO = {
 		{
 			title: "Personal Portfolio (Frontend)",
 			description:
-				"My personal portfolio that showcase my exprerience, projects and some general information about me, presented in a modern, attractive layout.",
+				"My personal portfolio which showcases my experience, projects, and some general information about me, is presented in a modern, attractive layout.",
 			logo: "https://github.com/Khaled6120/Khaled6120/assets/86200305/26749d41-be74-4623-a003-47eb0a30d472",
 			linkText: "View Project",
 			link: "https://github.com/Khaled6120/My-Portfolio",
