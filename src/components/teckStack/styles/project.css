@@ -1,0 +1,56 @@
+@import "../../../data/styles.css";
+
+.items {
+	border-radius: 20px;
+	opacity: 0.8;
+	height: fit-content;
+	border: 1px dashed #fafafa;
+}
+
+.items a {
+	text-decoration: none;
+}
+
+.items:hover {
+	background: #fafafa;
+	opacity: 1;
+	transition: background-color 0.3s ease-in-out;
+	border: 1px dashed rgb(182, 182, 182);
+}
+.card-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+.project:hover .project-link {
+	color: var(--link-color);
+	transition: color 0.3s ease-in-out;
+}
+
+.project-logo {
+	width: 40px;
+}
+
+.project-logo img {
+	width: 100%;
+}
+
+.project-title {
+	font-family: var(--secondary-font);
+	color: var(--primary-color);
+	font-size: 16px;
+	padding-top: 15px;
+	font-weight: 700;
+}
+
+.project-link-icon {
+	font-size: 13px;
+}
+
+@media (max-width: 600px) {
+	.project-logo {
+		width: 30px;
+	}
+}
