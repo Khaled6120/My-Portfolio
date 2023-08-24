@@ -48,6 +48,8 @@ This was a 3 week long project built with React, HTML, and CSS. Project goals in
       <img width="80px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" />
       <br>Github
     </td>
+  </tr>
+  <tr>
     <td align="center">
       <img width="80px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git" />
       <br>Git
@@ -59,6 +61,10 @@ This was a 3 week long project built with React, HTML, and CSS. Project goals in
     <td align="center">
      <img src="https://github.com/Khaled6120/Khaled6120/assets/86200305/0cc9c7b3-2ee9-4fc2-9f39-be718dbdec8d" title="HTML" alt="HTML" width="80px"  height="80px"/>
       <br>HTML
+    </td>
+    <td align="center">
+     <img src="https://miro.medium.com/v2/resize:fit:1024/1*ThrwevcjaDOmEVPgPYIgTg.png" title="EmailJS" alt="emailJS" width="80px"  height="80px"/>
+      <br>EmailJS
     </td>
   </tr>
 </table>
