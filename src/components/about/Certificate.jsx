@@ -7,7 +7,7 @@ function Certificate({ certificate }) {
 				border: "1px solid rgba(0, 0, 0, 0.1)",
 			}}
 			src={certificate.url}
-			allowfullscreen
+			allowFullScreen
 		></iframe>
 	);
 }

@@ -4,11 +4,11 @@ import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
+import Certificate from "../components/about/Certificate";
 
 import INFO from "../data/user";
 
 import "./styles/about.css";
-import Certificate from "../components/about/Certificate";
 
 const About = () => {
 	useEffect(() => {
@@ -32,17 +32,19 @@ const About = () => {
 								<div className="title about-title">
 									{INFO.about.title}
 								</div>
-
 								<div className="subtitle about-subtitle">
 									{INFO.about.description}
 								</div>
 								<div className="certificates">
 									<h2 className="title">Certificates 📄</h2>
-									{INFO.certificates.map((certificate) => (
-										<Certificate
-											certificate={certificate}
-										/>
-									))}
+									{INFO.certificates.map(
+										(certificate, index) => (
+											<Certificate
+												certificate={certificate}
+												key={index}
+											/>
+										)
+									)}
 								</div>
 							</div>
 
