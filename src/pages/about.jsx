@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import { Helmet } from "react-helmet";
 
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
@@ -9,6 +8,7 @@ import Socials from "../components/about/socials";
 import INFO from "../data/user";
 
 import "./styles/about.css";
+import Certificate from "../components/about/Certificate";
 
 const About = () => {
 	useEffect(() => {
@@ -38,17 +38,11 @@ const About = () => {
 								</div>
 								<div className="certificates">
 									<h2 className="title">Certificates 📄</h2>
-									{INFO.certificates.map(
-										(certificate, index) => (
-											<iframe
-												style={{
-													border: "1px solid rgba(0, 0, 0, 0.1)",
-												}}
-												src={certificate.url}
-												allowfullscreen
-											></iframe>
-										)
-									)}
+									{INFO.certificates.map((certificate) => (
+										<Certificate
+											certificate={certificate}
+										/>
+									))}
 								</div>
 							</div>
 
