@@ -77,7 +77,7 @@ const INFO = {
 		{
 			title: "Little Lemon (Frontend)",
 			description:
-				"Developed a responsive UI for the Meta Frontend specialization on Coursera. With bug-free code, using React components to create diverse views and building a front-end website with React JS and JavaScript",
+				"Developed a responsive UI for the Meta Frontend specialization on Coursera. With bug-free code, using ReactJS to create diverse views and building a frontend responsive website.",
 			logo: "https://github.com/Khaled6120/Khaled6120/assets/86200305/26749d41-be74-4623-a003-47eb0a30d472",
 			linkText: "View Project",
 			link: "https://github.com/Khaled6120/Little-Lemon",
