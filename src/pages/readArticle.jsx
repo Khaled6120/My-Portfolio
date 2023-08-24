@@ -1,13 +1,11 @@
 import React, { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { Helmet } from "react-helmet";
 import styled from "styled-components";
 
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 
-import INFO from "../data/user";
 import myArticles from "../data/articles";
 
 import "./styles/readArticle.css";
@@ -30,12 +28,6 @@ const ReadArticle = () => {
 
 	return (
 		<React.Fragment>
-			<Helmet>
-				<title>{`${article().title} | ${INFO.main.title}`}</title>
-				<meta name="description" content={article().description} />
-				<meta name="keywords" content={article().keywords.join(", ")} />
-			</Helmet>
-
 			<div className="page-content">
 				<NavBar />
 
