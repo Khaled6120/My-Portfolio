@@ -36,6 +36,20 @@ const About = () => {
 								<div className="subtitle about-subtitle">
 									{INFO.about.description}
 								</div>
+								<div className="certificates">
+									<h2 className="title">Certificates 📄</h2>
+									{INFO.certificates.map(
+										(certificate, index) => (
+											<iframe
+												style={{
+													border: "1px solid rgba(0, 0, 0, 0.1)",
+												}}
+												src={certificate.url}
+												allowfullscreen
+											></iframe>
+										)
+									)}
+								</div>
 							</div>
 
 							<div className="about-left-side">

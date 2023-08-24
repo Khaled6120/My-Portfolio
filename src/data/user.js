@@ -31,7 +31,7 @@ const INFO = {
 	about: {
 		title: "Computer Engineer who is passionate about Web development 💻",
 		description:
-		`I am a computer engineering graduate who is eager and
+			`I am a computer engineering graduate who is eager and
 		motivated to work as a web developer. I have hands-on experience
 		in React, Tailwind, Express, and database technologies. Also, I
 		graduated from a Re:Coded backend bootcamp that focused on
@@ -91,7 +91,7 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/Khaled6120/Online-Store",
 		},
-		
+
 		{
 			title: "Modern Bank App (FrontEnd)",
 			description:
@@ -126,7 +126,7 @@ const INFO = {
 		},
 		{
 			title: "Tailwind",
-			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" ,
+			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
 		},
 		{
 			title: "Git",
@@ -162,6 +162,17 @@ const INFO = {
 		},
 
 	],
+	certificates: [
+		{
+			url: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FPShQsE7rmZHkA0GhVuurNZ%2FUntitled%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DAyFGIfTecTj2BPBn-1'
+		},
+		{
+			url: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FDUAAT9Lu0PrlZYDvJNWW1K%2FUntitled-(Copy)%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DAyFGIfTecTj2BPBn-1'
+		},
+		{
+			url: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fy4UXbC8yGiwci1Xr82VYhq%2FUntitled-(Copy)-(Copy)%3Ftype%3Ddesign%26node-id%3D9%253A3%26mode%3Ddesign%26t%3DAyFGIfTecTj2BPBn-1'
+		}
+	]
 };
 
 export default INFO;
