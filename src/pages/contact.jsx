@@ -78,8 +78,7 @@ const Contact = () => {
 							I'm here to address any questions or inquiries you
 							may have. Whether you have a specific question or
 							wish to share your thoughts, please don't hesitate
-							to use this form to send me an email directly .
-							Don't hesitate to reach out. Thanks again for your
+							to use this form to send me an email directly . Thanks again for your
 							interest, and I look forward to hearing from you!
 						</div>
 
