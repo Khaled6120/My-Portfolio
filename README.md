@@ -3,9 +3,9 @@ My personal portfolio which showcases my experience, projects, and some general 
 
 # Project Screen Shot(s)
 ## - Responsive design
-![image](https://github.com/Khaled6120/My-Portfolio/assets/86200305/8cbd49d4-211a-41a1-92c7-d096c3a8aeb8)
+![image](https://github.com/Khaled6120/My-Portfolio/assets/86200305/6b319289-3778-43e2-9f47-b0ff3f9d8e27)
 ## - Desktop design
-![image](https://github.com/Khaled6120/My-Portfolio/assets/86200305/9fd07582-45dd-4dfa-9117-79797fcdd594)
+![image](https://github.com/Khaled6120/My-Portfolio/assets/86200305/707ef243-5b99-47a5-8202-d156338af870)
 
 # Installation and Setup Instructions
 
