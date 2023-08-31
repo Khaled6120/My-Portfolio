@@ -6,6 +6,27 @@ const linkStyle = {
 	fontWeight: "bold",
 };
 
+function article_0() {
+	return {
+		date: "28 Aug 2023",
+		title: "Design Pattern | Factory 🏭",
+		description:
+			"A brief overview of Factory Design Pattern,",
+		style: ``,
+		keywords: [
+			"Javascript",
+		],
+		body: (
+			<React.Fragment>
+				<h3>
+					<a style={linkStyle} href="https://medium.com/@alnaes1234/factory-design-pattern-660675fbff78">Go to Medium ➡️</a>
+				</h3>
+			</React.Fragment>
+		),
+	};
+}
+
+
 function article_1() {
 	return {
 		date: "30 Jun 2023",
@@ -80,6 +101,7 @@ function article_3() {
 	};
 }
 
-const myArticles = [article_1, article_2, article_3];
+
+const myArticles = [article_0, article_1, article_2, article_3];
 
 export default myArticles;

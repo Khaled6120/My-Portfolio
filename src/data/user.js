@@ -141,6 +141,18 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
 		},
 		{
+			title: "Docker",
+			logo: "https://www.svgrepo.com/download/331370/docker.svg",
+		},
+		{
+			title: "React Router",
+			logo: "https://www.svgrepo.com/show/354262/react-router.svg",
+		},
+		{
+			title: "Socket.io",
+			logo: "https://assets.stickpng.com/images/58482deccef1014c0b5e4a64.png",
+		},
+		{
 			title: "Swaggere",
 			logo: "https://upload.wikimedia.org/wikipedia/commons/a/ab/Swagger-logo.png?20170812110931",
 		},
@@ -155,6 +167,10 @@ const INFO = {
 		{
 			title: "HTML",
 			logo: "https://github.com/Khaled6120/Khaled6120/assets/86200305/0cc9c7b3-2ee9-4fc2-9f39-be718dbdec8d",
+		},
+		{
+			title: "Github",
+			logo: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
 		},
 		{
 			title: "NodeJS",
