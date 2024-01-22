@@ -146,7 +146,7 @@ const Homepage = () => {
 									<button className="resume-btn">
 										<a
 											target="_blank"
-											href="https://drive.google.com/file/d/1IvNpbHdiAV3DDRAIuxrsfgeAEef77gFK/view?usp=drive_link"
+											href=""
 										>
 											Résumé
 										</a>
