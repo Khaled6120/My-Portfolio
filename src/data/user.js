@@ -2,14 +2,13 @@ const INFO = {
 	main: {
 		title: "Portfolio by Khaled",
 		name: "Khaled Naes",
-		email: "khalednaes3@gmail.com",
+		email: "example@gmail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
 		github: "https://github.com/Khaled6120",
 		linkedin: "https://www.linkedin.com/in/khaled-naes-359456216/",
-		instagram: "https://www.instagram.com/invites/contact/?i=m4h1oa6dvt8m&utm_content=3a9ps7w",
 		medium: "https://medium.com/@alnaes1234",
 		youtube: "https://youtube.com/@funWithCodeMe",
 	},
