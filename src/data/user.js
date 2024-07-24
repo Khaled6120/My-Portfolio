@@ -182,9 +182,6 @@ const INFO = {
 			url: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FPShQsE7rmZHkA0GhVuurNZ%2FUntitled%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DAyFGIfTecTj2BPBn-1'
 		},
 		{
-			url: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FDUAAT9Lu0PrlZYDvJNWW1K%2FUntitled-(Copy)%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DAyFGIfTecTj2BPBn-1'
-		},
-		{
 			url: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fy4UXbC8yGiwci1Xr82VYhq%2FUntitled-(Copy)-(Copy)%3Ftype%3Ddesign%26node-id%3D9%253A3%26mode%3Ddesign%26t%3DAyFGIfTecTj2BPBn-1'
 		}
 	]
