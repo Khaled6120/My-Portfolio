@@ -15,29 +15,25 @@ const INFO = {
 
 	homepage: {
 		name: "Khaled Naes,",
-		title: "A Computer Engineer specialized in web development.",
+		title: "A Computer Engineer",
 		description:
 			`I am a computer engineering graduate who is eager and
-			motivated to work as a web developer. I have hands-on experience
-			in React, Tailwind, Express, and database technologies. Also, I
-			graduated from a Re:Coded backend bootcamp that focused on
-			creating engaging and functional websites. I possess strong
+			motivated to build web projects. I have hands-on experience
+			in React, Tailwind, Express, and database technologies. I possess strong
 			attention to detail, teamwork, and problem-solving skills, as well as
-			a drive to continuously learn and improve in the web development
+			a drive to continuously learn and improve in web development
 			field.`,
 	},
 
 	about: {
-		title: "Computer Engineer who is passionate about Web development 💻",
+		title: "A Computer Engineer 💻",
 		description:
 			`I am a computer engineering graduate who is eager and
-		motivated to work as a web developer. I have hands-on experience
-		in React, Tailwind, Express, and database technologies. Also, I
-		graduated from a Re:Coded backend bootcamp that focused on
-		creating engaging and functional websites. I possess strong
-		attention to detail, teamwork, and problem-solving skills, as well as
-		a drive to continuously learn and improve in the web development
-		field.`,
+			motivated to build web projects. I have hands-on experience
+			in React, Tailwind, Express, and database technologies. I possess strong
+			attention to detail, teamwork, and problem-solving skills, as well as
+			a drive to continuously learn and improve in web development
+			field.`,
 	},
 
 	articles: {
